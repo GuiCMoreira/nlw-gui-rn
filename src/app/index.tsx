@@ -1,8 +1,15 @@
-import {View, Text} from "react-native";
+import { View, Text } from 'react-native';
+import {
+  Inter_400Regular,
+  Inter_500Medium,
+  Inter_600SemiBold,
+  Inter_700Bold,
+} from "@expo-google-fonts/inter"
+
 export default function Home() {
   return (
-    <View>
-      <Text>OPA</Text>
+    <View className='bg-slate-900 flex-1 pt-8'>
+      <Text className="text-white text-2xl">EU AMO A MARIA MERNANDA</Text>
     </View>
-  )
+  );
 }
